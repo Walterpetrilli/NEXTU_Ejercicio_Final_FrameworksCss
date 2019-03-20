@@ -6,6 +6,10 @@ header img{
   width: 30%;
 }
 
+section{
+  display: flex;
+}
+
 .rs{
   width: 5%;
   margin: 1%;
@@ -27,18 +31,34 @@ header img{
   color: #FF0000;
 }
 
-section img{
+.imgbanda img{
   width: 100%;
-  margin: 5%;
+  padding: 5%;
+}
+
+.comment img{
+  width: 60%;
+}
+
+.comment{
+  text-align: center;
 }
 
 #notas{
+  padding-right: 3%;
+}
+#notas .row{
   background-color: #D4CDCD;
 }
 
 #notas p{
   font-size: 0.8em;
 }
+
+#buscador{
+  background-color: #D4CDCD;
+}
+
 
 /*Adaptacion a Mobile*/
 @media only screen and (max-width: 600px) {
@@ -63,6 +83,11 @@ section img{
   }
 
   #notas img{
-    width: 90%;
+    width: 100%;
   }
+
+  .comment img{
+    width: 180% !important;
+  }
+
 }
