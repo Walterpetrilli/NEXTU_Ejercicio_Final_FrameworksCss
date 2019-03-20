@@ -1,0 +1,68 @@
+header{
+  background-color: #F73A12;
+}
+
+header img{
+  width: 30%;
+}
+
+.rs{
+  width: 5%;
+  margin: 1%;
+}
+
+.redessociales{
+    text-align: right;
+}
+
+#barranavegacion{
+  background-color: #FF9881;
+}
+
+#barranavegacion a{
+  color: #000000;
+}
+
+#barranavegacion a:hover{
+  color: #FF0000;
+}
+
+section img{
+  width: 100%;
+  margin: 5%;
+}
+
+#notas{
+  background-color: #D4CDCD;
+}
+
+#notas p{
+  font-size: 0.8em;
+}
+
+/*Adaptacion a Mobile*/
+@media only screen and (max-width: 600px) {
+  header img{
+    width: 50%;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .redessociales{
+    text-align: center;
+  }
+
+  #barranavegacion{
+      text-align: center;
+  }
+
+  #buscador{
+    display: none;
+  }
+
+  #notas img{
+    width: 90%;
+  }
+}
